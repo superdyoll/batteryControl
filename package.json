@@ -1,0 +1,15 @@
+{
+  "name": "batterycontrol",
+  "version": "1.0.0",
+  "description": "Turn on a smart plug when the battery is low and turn it off when high",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lloyd Pearson",
+  "license": "MIT",
+  "dependencies": {
+    "battery-level": "^3.0.0",
+    "tplink-smarthome-api": "^2.0.0"
+  }
+}
